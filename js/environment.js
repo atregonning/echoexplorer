@@ -127,19 +127,6 @@ Environment.prototype.drawTopArtistChart = function(genre, series) {
         },
         chart : {
             type : 'column',
-//            events : {
-//                drilldown: function (e) {
-//                    alert(e.point.name);
-//                    if (!e.seriesOptions) {
-//                        alert('clicked');
-//                        var chart = this;
-//                        chart.showLoading('Fetching artist data...');
-//                        self.getSongsByArtist(e.point.name, chart);
-//                        chart.hideLoading();
-//                        chart.addSeriesAsDrilldown(e.point, series);
-//                    }
-//                }
-//            }
         },
         title : {
             text : 'Top ' + series[0].data.length + ' ' + genre + ' artists'
